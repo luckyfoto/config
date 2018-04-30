@@ -16,3 +16,6 @@ zuul:
     users:
       path: /def/**
       serviceId: WEB_SERVICE_WITH_EURAKA
+
+      path: /hij/**
+      serviceId: WEB_SERVICE_WITH_EURAKA2
