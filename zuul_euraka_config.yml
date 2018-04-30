@@ -14,5 +14,5 @@ eureka:
 zuul:
   routes:
     users:
-      path: /abc/**
+      path: /def/**
       serviceId: WEB_SERVICE_WITH_EURAKA
