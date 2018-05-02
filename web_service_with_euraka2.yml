@@ -2,6 +2,8 @@ server:
   port:
     7002
 
+config-welcome: hello, welcome to the world
+
 eureka:
   client:
     serviceUrl:
