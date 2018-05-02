@@ -2,7 +2,7 @@ server:
   port:
     7001
 
-config-welcome: hello, welcome to the world, NuiAAA
+config-welcome: hello, welcome to the world, NuiA
 
 eureka:
   client:
