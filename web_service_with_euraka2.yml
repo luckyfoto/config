@@ -2,7 +2,7 @@ server:
   port:
     7002
 
-config-welcome: hello, welcome to the world
+config-welcome: hello, welcome to the world, Note!
 
 eureka:
   client:
