@@ -19,3 +19,7 @@ zuul:
     serviceB:
       path: /def/**
       serviceId: WEB_SERVICE_WITH_EURAKA2
+    apiService:
+      path: /api/**
+      serviceId: API_CONSUMER_SERVICE
+

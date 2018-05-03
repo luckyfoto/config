@@ -1,2 +1,8 @@
 server:
-  port: 5077
+  port: 7003
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
