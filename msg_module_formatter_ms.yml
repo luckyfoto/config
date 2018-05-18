@@ -2,8 +2,14 @@ server:
   port:
     8763 
 
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-
+spring:
+  cloud:
+    stream:
+      bindings:
+        input:
+          contentType: application/xml
+          destination: biller_config
+        kafka:
+          binder:
+            brokers: localhost:9092
+            zkNodes: localhost:2181
