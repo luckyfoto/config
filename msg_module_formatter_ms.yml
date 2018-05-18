@@ -7,7 +7,7 @@ spring:
     stream:
       bindings:
         input:
-          contentType: application/xml
+          contentType: application/json
           destination: biller_config
         kafka:
           binder:
