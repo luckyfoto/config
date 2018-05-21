@@ -16,3 +16,7 @@ spring:
 
 beanio:
   xmlfile: C:\tmp\mapping_biller.xml
+
+biller:
+  request: biller1_request
+  response: biller1_response
