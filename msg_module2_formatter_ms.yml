@@ -1,0 +1,22 @@
+server:
+  port:
+    8764
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        input:
+          contentType: application/json
+          destination: biller_config
+        kafka:
+          binder:
+            brokers: localhost:9092
+            zkNodes: localhost:2181
+
+beanio:
+  xmlfile: C:\tmp\tmp\mapping_biller.xml
+
+biller:
+  request: biller2_request
+  response: biller2_response
