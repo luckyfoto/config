@@ -1,6 +1,6 @@
 server:
   port:
-    8764 
+    8763
 
 spring:
   cloud:
