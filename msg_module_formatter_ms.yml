@@ -13,3 +13,6 @@ spring:
           binder:
             brokers: localhost:9092
             zkNodes: localhost:2181
+
+beanio:
+  xmlfile: C:\Users\w.rattanasamoot\Desktop\mapping_biller.xml
