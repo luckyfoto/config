@@ -15,4 +15,4 @@ spring:
             zkNodes: localhost:2181
 
 beanio:
-  xmlfile: C:\Users\w.rattanasamoot\Desktop\mapping_biller.xml
+  xmlfile: C:\tmp\mapping_biller.xml
