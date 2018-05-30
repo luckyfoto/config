@@ -15,7 +15,7 @@ spring:
             zkNodes: localhost:2181
 
 beanio:
-  xmlfile: C:\tmp\mapping_biller.xml
+  xmlfile: C:\tmp\tmp\mapping_biller.xml
 
 biller:
   request: biller1_request
