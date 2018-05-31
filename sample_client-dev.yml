@@ -1,0 +1,5 @@
+server:
+  port: 7093
+
+message: Helloworld
+
